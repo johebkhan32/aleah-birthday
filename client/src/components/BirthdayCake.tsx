@@ -66,7 +66,7 @@ export function BirthdayCake({
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.8 }}
-      className="flex flex-col items-center justify-center min-h-screen bg-background grain relative overflow-hidden"
+      className="flex flex-col items-center justify-center min-h-screen relative overflow-hidden"
     >
       {/* Decorative background elements */}
       <div className="absolute inset-0 pointer-events-none">

@@ -1,10 +1,11 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
 import { Route, Switch, Router as WouterRouter } from "wouter";
+import NotFound from "@/pages/NotFound";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { ExperienceProvider } from "./contexts/ExperienceContext";
+import { AuroraBackground } from "./components/ui/aurora-background";
 import Home from "./pages/Home";
 
 
@@ -29,8 +30,10 @@ function App() {
       >
         <ExperienceProvider>
           <TooltipProvider>
-            <Toaster />
-            <Router />
+            <AuroraBackground>
+              <Toaster />
+              <Router />
+            </AuroraBackground>
           </TooltipProvider>
         </ExperienceProvider>
       </ThemeProvider>

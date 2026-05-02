@@ -45,7 +45,7 @@ export function MicrophoneSetup({ onMicEnabled, onBack }: MicrophoneSetupProps) 
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.8 }}
-      className="min-h-screen flex items-center justify-center bg-background grain relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
       {/* Decorative background elements */}
       <div className="absolute inset-0 pointer-events-none">

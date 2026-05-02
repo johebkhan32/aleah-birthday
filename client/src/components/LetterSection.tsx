@@ -65,7 +65,7 @@ export function LetterSection({ onRestart }: LetterSectionProps) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.8 }}
-      className="min-h-screen bg-background grain py-16 px-4 md:px-8 flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen py-16 px-4 md:px-8 flex items-center justify-center relative overflow-hidden"
     >
       {/* Decorative background elements */}
       <div className="absolute inset-0 pointer-events-none">

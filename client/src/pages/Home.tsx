@@ -71,7 +71,7 @@ export default function Home() {
         <iframe
           width="0"
           height="0"
-          src="https://www.youtube.com./watch?v=cNGjD0VG4R8"
+          src="https://www.youtube.com/embed/cNGjD0VG4R8?autoplay=1&loop=1&playlist=cNGjD0VG4R8"
           allow="autoplay"
           style={{ display: 'none' }}
           title="Background Music"

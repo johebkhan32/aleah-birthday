@@ -68,13 +68,11 @@ export default function Home() {
 
       {/* Global Background Music */}
       {backgroundMusicEnabled && (
-        <iframe
-          width="0"
-          height="0"
-          src="https://www.youtube.com/embed/cNGjD0VG4R8?autoplay=1&loop=1&playlist=cNGjD0VG4R8"
-          allow="autoplay"
+        <audio
+          autoPlay
+          loop
+          src="https://drive.google.com/uc?export=download&id=1JJQQPw_8dbmLPwR9TftTHoPXU454hl_W"
           style={{ display: 'none' }}
-          title="Background Music"
         />
       )}
 

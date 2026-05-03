@@ -55,9 +55,11 @@ export function BirthdayCake({
   };
 
   useAudioDetection({
-    threshold: 50,
+    threshold: 130,
     onBlow: handleBlow,
     enabled: micEnabled && !allExtinguished,
+    sustainedFrames: 8,
+    gracePeriodMs: 2000,
   });
 
   return (

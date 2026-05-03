@@ -71,7 +71,7 @@ export default function Home() {
         <audio
           autoPlay
           loop
-          src="https://drive.google.com/uc?export=download&id=1JJQQPw_8dbmLPwR9TftTHoPXU454hl_W"
+          src={`${import.meta.env.BASE_URL}background_music.mp3`}
           style={{ display: 'none' }}
         />
       )}
